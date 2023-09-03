@@ -1,0 +1,68 @@
+.testimonials{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.test-head{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.test-card{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16px;
+margin-top: 30px;
+width: 20%;
+}
+@media screen and (max-width:576px){
+    .test-card{
+        width:90%;
+    }
+}
+.test-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.test-image{
+    width: 100px;
+height: 100px;
+flex-shrink: 0;
+border-radius: 100%;
+}
+.test-para-1{
+    color: var(--black-fonts-headings, #2D2E2E);
+text-align: center;
+
+/* Text */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+margin: 0;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+}
+.test-line{
+    width: 126px;
+height: 0px;
+stroke-width: 1px;
+stroke: var(--Green, #A0CD9E);
+margin: 0;
+}
+.test-para-2{
+    color: var(--black-fonts-headings, #2D2E2E);
+text-align: center;
+
+/* Text */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+}
